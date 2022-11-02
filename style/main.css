@@ -1,8 +1,6 @@
 :root{
     ---vermelho:#e50939e8 ;
     ---preto:#141414;
-    ---branco:#AAA;
-
 }
 
 *{
@@ -23,8 +21,6 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
-
 }
 
 header .logo{
@@ -36,31 +32,39 @@ header .logo{
 
 header nav a{
     text-decoration: none;
-    color: var(---branco);
+    color: #AAA;
     margin-right: 10px; 
-
 }
 
-header nav a{
+header nav a:hover{
     color: #fff;
 }
 
 /*Descrição do Netflis2000*/
+
+/*filme principal*/
 .filme-principal{
-    font-size: 16px;
-    background:linear-gradient(rgba(0,0,0,.50)100%) url('/img/Como-Se-Fosse-a-Primeira-Vez.jpg');
-    height: 400px;
-    background-size: cover;
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-filme-principal.png');
+
+    height:400px;
+    background-size:cover;
+ 
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
+
 .filme-principal .descricao{
-    margin-bottom: 90px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
-.titulo{
+
+.filme-principal .titulo{
+    margin-top: 15%;
     font-size: 40px;
 }
