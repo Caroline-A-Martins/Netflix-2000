@@ -1,6 +1,6 @@
 :root{
-    ---vermelho:#e50939e8 ;
-    ---preto:#141414;
+    --vermelho:#e50939e8 ;
+    --preto:#141414;
 }
 
 *{
@@ -10,8 +10,8 @@
 }
 /*elementos basa*/
 body{
-    background: var(---preto);
-    font-family:'Arial', Times, serif;
+    background: var(--preto);
+    font-family:'Times New Roman', Times, serif;
     color: white;
 }
 
@@ -24,7 +24,7 @@ header .container{
 }
 
 header .logo{
-    color: var(---vermelho);
+    color: var(--vermelho);
     margin-left: 5px;
     font-family: 'Arial Black', Times;
     font-size:40px ;
@@ -56,18 +56,18 @@ header nav a:hover{
     align-items: flex-start;
 }
 
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
 
 .filme-principal .descricao{
     margin-top: 10px; ;
     margin-bottom: 40px;
 }
 
-
-.filme-principal .titulo{
-    margin-top: 15%;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-}
 
 .botao{
     background-color:rgba(0,0,0,.50);
@@ -106,4 +106,8 @@ header nav a:hover{
     width: 100%;
     display: block;
     cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top:5px;
 }
